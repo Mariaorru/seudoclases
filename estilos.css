@@ -1,0 +1,30 @@
+a:link {
+	color: green;
+}
+a:visited {
+	color:orange;
+}
+div.foto{
+	background-image:url("img/boreal.jpg");
+	height: 200px;
+	width: 400px;
+	background-size:cover;
+}
+div.foto:hover{
+	background-image: url("img/flores.jpg");
+	height: 200px;
+	width: 400px;
+	background-size:cover;
+}
+button{
+	font-family: fantasy;
+	font-style: italic;
+	background-color: red;
+	font-size: 50px;
+	border-radius: 50px;
+	border: 10px solid black;
+	color:white;
+}
+button:hover{
+	background-color: blue;
+}

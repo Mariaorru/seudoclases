@@ -1,0 +1,41 @@
+h1 {
+	font-size: 3em;/*em tipo de medida relativa */
+	font-style: italic;
+	}
+p {
+	font-size: 1em;
+	}
+p.error{
+	color:#ff0000;
+	}
+div.texto p span {
+	color:red;
+	font-style: italic;
+	}
+div#textoprincipal{
+	text-align: justify;
+	background: orange;
+	}
+div#textoprincipal p span {
+	color:red;
+	font-style: italic;
+	}
+div#textoprincipal p {
+	color: blue;
+	}
+div#textoprincipal div.lista{
+	background: yellow;
+	}
+div#textoprincipal div.lista ul li p{
+	background: red;
+	}
+div#textoprincipal>p{
+	border: 5px solid black;
+	}
+div#textoprincipal h2+p{
+	color: pink;
+	}
+p.marron~div.lista ul {
+	background: brown;
+}
+
